@@ -2,10 +2,10 @@ introPic {
     height: 100%;
     width: 700px;
     position: absolute;
-    color: black;
+    background-color: black;
 }
 
-homepage {
+body {
     overflow: auto;
     background-color: blue;
     padding: 0
