@@ -4,3 +4,9 @@ introPic {
     position: absolute;
     color: black;
 }
+
+homepage {
+    overflow: auto;
+    background-color: blue;
+    padding: 0
+}
