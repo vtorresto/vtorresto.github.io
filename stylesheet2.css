@@ -9,27 +9,28 @@ html, body {
 }
 
 header {
+    background-color: aqua;
     height: 15vh;
-    background-color: rgb(255, 117, 117);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-header a {
+.navTop {
+    background-color: rgb(195, 0, 255);
     font-family: 'Fahkwang', Lato;
     font-size: 18px;
 }
 
-.footerP {
+.logo {
     display: flex;
-    justify-content: center;
-    height: 25vh;
-    contain: size;
+    background-color: rgb(67, 224, 67);
+    height: 100%;
+    width: 30%;
     object-fit: contain;
 }
 
-.footerP img {
-    height: 100%;
+.logo img {
+    height: 75%;
 }
