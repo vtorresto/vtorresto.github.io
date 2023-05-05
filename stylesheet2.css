@@ -1,0 +1,35 @@
+html, body {
+    margin: auto;
+    background-color: rgb(112, 21, 82);
+}
+
+.wrapper1 {
+    margin: 0 auto;
+    width: 60vh;
+}
+
+header {
+    height: 15vh;
+    background-color: rgb(255, 117, 117);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-family: 'Fahkwang', Lato;
+    font-size: 18px;
+}
+
+.footerP {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    contain: size;
+    object-fit: contain;
+}
+
+.footerP img {
+    height: 100%;
+}
